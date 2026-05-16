@@ -31,6 +31,9 @@ object paqueteDeLadrillos {
   method cantidadDeLadrillos(numero){
     cantidad = numero
   }
+  method peso(){
+    return cantidad * 2
+  }
   method peligrosidad() = 2
 }
 
